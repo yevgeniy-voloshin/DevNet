@@ -1,0 +1,4 @@
+hostname,ip,port,username,password,secret,device_type
+ios-xe-mgmt.cisco.com,ios-xe-mgmt.cisco.com,8181,developer,C1sco12345,C1sco12345,cisco_xe
+LAB-3750G-48,10.171.254.5,22,cisco,cisco,cisco,cisco_ios
+LAB-C7206,10.171.254.107,22,cisco,cisco,cisco,cisco_ios
