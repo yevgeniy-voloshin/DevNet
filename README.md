@@ -1,0 +1,7 @@
+# SAMPLE OUTPUT:
+
+LAB-C7206|7200 7206VXR|15.2(4)S4|PE|CDP ON, 1 peers|NTP not Sync
+
+LAB-3750G-48|C3750 WS-C3750G-48TS|12.2(55)SE12|PE|CDP ON, 5 peers|NTP in Sync
+
+ios-xe-mgmt.cisco.com|Virtual CSR1000V|16.9.3|PE|CDP OFF, 0 peers|NTP in Sync
