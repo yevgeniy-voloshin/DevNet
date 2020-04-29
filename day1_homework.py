@@ -76,9 +76,9 @@ def connect_to_device(device):
         secret=device['secret']
     )
 
-    print ('Opened connection to '+device['ip'])
-    print('-*-' * 10)
-    print()
+    #print ('Opened connection to '+device['ip'])
+    #print('-*-' * 10)
+    #print()
 
     # returns a "connection" object
     return connection
@@ -87,7 +87,7 @@ def disconnect_from_device(connection, hostname):
     #This function terminates the connection to the device
 
     connection.disconnect()
-    print ('Connection to device {} terminated'.format(hostname))
+    #print ('Connection to device {} terminated'.format(hostname))
 
 def get_backup_file_path(hostname,timestamp):
     # This function creates a backup file name (a string)
@@ -103,9 +103,9 @@ def get_backup_file_path(hostname,timestamp):
 
     # Merging a string to form a full backup file name
     backup_file_path = os.path.join(BACKUP_DIR_PATH, hostname, '{}-{}.txt'.format(hostname, timestamp))
-    print('Backup file path will be '+backup_file_path)
-    print('-*-' * 10)
-    print()
+    #print('Backup file path will be '+backup_file_path)
+    #print('-*-' * 10)
+    #print()
 
     # returning backup file path
     return backup_file_path
@@ -122,9 +122,9 @@ def create_backup(connection, backup_file_path, hostname):
         # creating a backup file and writing command output to it
         with open(backup_file_path, 'w') as file:
             file.write(output)
-        print("Backup of " + hostname + " is complete!")
-        print('-*-' * 10)
-        print()
+        #print("Backup of " + hostname + " is complete!")
+        #print('-*-' * 10)
+        #print()
 
         # if successfully done
         return True
